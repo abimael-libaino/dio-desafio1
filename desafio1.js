@@ -1,5 +1,5 @@
 var xp = 3000
-var nome = "Abi"
+var nome = "Placeholder"
 var nivel = "     "
 if(xp<1001){
  nivel = "Ferro"
