@@ -25,10 +25,13 @@ Se XP for maior ou igual a 10.001 = Radiante
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
 ## Modo de uso
-Pode-se usar abrindo o site <playcode.io/javascript> e copiando e colando o codigo. Ou pode apenas rodar o codigo clonando o repositorio usando o seguinte comando:
-
+Para usar o codigo, se é necessario clonar o repositorio usando o seguinte comando:
 ~~~ 
 git clone https://github.com/abimael-libaino/dio-desafio1.git 
+~~~
+Depois, se é necessaria a instalação do modulo ```prompt-sync``` que se faz com o seguinte comnado sendo usado no terminal (se tiver node.js instalado):
+~~~
+npm install prompt-sync 
 ~~~
 e depois de clonado, entrar na pasta e usar o seguinte comando:
 ~~~

@@ -1,6 +1,7 @@
-var xp = 3000
-var nome = "Placeholder"
-var nivel = "     "
+const prompt = require("prompt-sync")({sigint: true})
+let xp = prompt("Por favor, diga a quantidade de Experiencia(xp):")
+let nome = prompt("Por favor, me diga o nome do Héroi: ")
+let nivel = ""
 if(xp<1001){
  nivel = "Ferro"
 } else if(xp>1000 && xp<2001){
